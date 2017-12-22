@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+/** lineFields */
+@property(nonatomic, strong) IBOutletCollection(UITextField) NSArray *lineFields;
 
 @end
 
